@@ -31,8 +31,15 @@ button:hover {
 }
 
 #result {
-  margin-top: 148px;
+  margin-top: 100px;
   font-weight: bold;
   font-size: 16px;
   color: darkgoldenrod;
+}
+
+#credits {
+  font-weight: bold;
+  margin: 48px;
+  font-size: 48px;
+  color: purple;
 }

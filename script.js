@@ -20,6 +20,7 @@ function displayQuestion() {
       btn.value = choicesArray[currentQuestionIndex][i];
     }
   } else {
+    document.getElementById("credits").innerHTML = "Er ist eine echte Pappnase!";
     document.getElementById("result").innerHTML =
       "Alles nur Spaß Tobi, hab dich lieb!";
     document.getElementById("question").innerHTML = "";
