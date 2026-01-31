@@ -1,0 +1,38 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(45deg, darkblue, teal);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  background: white;
+  background-color: lightskyblue;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1240px;
+  box-shadow: 5px 5px 0px black;
+  padding: 18px;
+}
+
+button {
+  padding: 8px;
+  margin: 12px;
+  background-color: cornsilk;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#result {
+  margin-top: 148px;
+  font-weight: bold;
+  font-size: 16px;
+  color: darkgoldenrod;
+}
