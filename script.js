@@ -2,12 +2,14 @@ let score = 0;
 const questions = [
   "Welches dieser Wörter beschreibt Lars am besten?",
   "Was kann Lars überhaupt?",
+  "Mehr Fragen?"
 ];
 const choicesArray = [
   ["nett", "hübsch", "lieb", "aggressiv"],
   ["Valorant", "Legion TD", "gar nix", "WoW"],
+  ["Okay", "NEIN!", "Vielleicht", "Ja"]
 ];
-const correctAnswers = ["aggressiv", "gar nix"];
+const correctAnswers = ["aggressiv", "gar nix", "NEIN"];
 let currentQuestionIndex = 0;
 
 function displayQuestion() {
