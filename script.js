@@ -1,11 +1,11 @@
 let score = 0;
 const questions = [
-  "Welches dieser Wörter beschreibt Tobi am besten?",
-  "Was kann Tobi überhaupt?",
+  "Welches dieser Wörter beschreibt Lars am besten?",
+  "Was kann Lars überhaupt?",
 ];
 const choicesArray = [
   ["nett", "hübsch", "lieb", "aggressiv"],
-  ["Billard", "Bouldern", "gar nix", "WoW"],
+  ["Valorant", "Legion TD", "gar nix", "WoW"],
 ];
 const correctAnswers = ["aggressiv", "gar nix"];
 let currentQuestionIndex = 0;
@@ -22,7 +22,7 @@ function displayQuestion() {
   } else {
     document.getElementById("credits").innerHTML = "Er ist eine echte Pappnase!";
     document.getElementById("result").innerHTML =
-      "Alles nur Spaß Tobi, hab dich lieb!";
+      "Alles nur Spaß Lars, :op";
     document.getElementById("question").innerHTML = "";
     document.getElementById("choices").innerHTML = "";
   }
