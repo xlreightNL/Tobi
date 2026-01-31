@@ -9,7 +9,7 @@ const choicesArray = [
   ["Valorant", "Legion TD", "gar nix", "WoW"],
   ["Okay", "NEIN!", "Vielleicht", "Ja"]
 ];
-const correctAnswers = ["aggressiv", "gar nix", "NEIN"];
+const correctAnswers = ["aggressiv", "gar nix", "NEIN!"];
 let currentQuestionIndex = 0;
 
 function displayQuestion() {
